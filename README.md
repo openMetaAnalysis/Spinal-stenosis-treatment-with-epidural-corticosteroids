@@ -6,7 +6,7 @@ This repository contains the [source data](../../tree/master/data) and matching 
 
 This meta-analysis suggests that the clinical intervention is *not clearly effective* at 4-6 weeks. However, the quality of evidence is *very low* ([see The GRADE approach](https://github.com/openMetaAnalysis/Administration/wiki/References)) due to the small number of patients randomized ([Ioannidis & Lau, 2001](http://pubmed.gov/11158556)) and the marked [heterogenity](https://github.com/openMetaAnalysis/Administration/wiki/References) of results.
 
-Details of the studies included are in the [evidence table](../../wiki/Evidence-Table) and [risk of bias assessment](../../wiki/Risk-of-bias-assessment). Rationale for studies excluded may be listed at the end of the references below.
+Details of the studies included are in the [PICO table](../../wiki/PICO-Table) and [risk of bias assessment](../../wiki/Risk-of-bias-assessment). Rationale for studies excluded may be listed at the end of the references below.
 
 Below is the forest plot for the primary outcome. [Forest plots](../../tree/master/forest%20plots) for other outcomes may be available.
 ![Image of forest plot of primary outcome](https://raw.githubusercontent.com/openMetaAnalysis/Epidural-corticosteroids-for-spinal-stenosis /master/forest%20plots/Outcome%20-%20Primary.png "Principle results")
