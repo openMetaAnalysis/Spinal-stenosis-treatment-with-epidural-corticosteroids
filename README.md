@@ -1,4 +1,4 @@
-Epidural-corticosteroids-for-spinal-stenosis
+Epidural corticosteroids for spinal stenosis: a living systematic review
 ============================================
 
 This repository contains the [source data](../../tree/master/data) and matching [forest plots](../../tree/master/forest%20plots) and  [GRADE profiles](../../tree/master/GRADE%20profiles).
