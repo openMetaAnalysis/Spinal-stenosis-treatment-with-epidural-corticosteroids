@@ -32,3 +32,8 @@ Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasa
 1. Fukusaki M, Kobayashi I, Hara T, Sumikawa K. Symptoms of spinal stenosis do not improve after epidural steroid injection. Clin J Pain. 1998 Jun;14(2):148-51. PMID:[9647457](http://pubmed.gov/9647457).
 
 ####Trials excluded - selected list of important trials
+
+####Cited by
+This repository is cited by:
+
+1. WikiDoc contributors. Spinal stenosis medical therapy. WikiDoc. Nov 9, 2014. Available at: http://www.wikidoc.org/index.php/Spinal_stenosis_medical_therapy. Accessed November 9, 2014. 
