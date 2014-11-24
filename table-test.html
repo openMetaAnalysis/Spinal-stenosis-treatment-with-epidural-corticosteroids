@@ -13,12 +13,16 @@ var url = "/template/tables/pico.xml";
             url: url,
             cache: false,
             dataType: "xml",
+            error: function() {
+                alert("The XML File could not be processed correctly.");
+                }
             success: function(xml) {
-                    alert("success");
                 $(xml).find('study').each(function(){
                     $(this).find("citation").each(function(){
-                        var name = $("citation").text();
-                        alert(name);
+                        //var name = $("citation").text();
+                        //alert(name);
+                        var patients = $(this).find('patients').text();
+                        alert(patients);
                     });
                 });
             }
