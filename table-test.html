@@ -14,15 +14,13 @@ var url = "/template/tables/pico.xml";
             cache: false,
             dataType: "xml",
             success: function(xml) {
+                    alert("success");
                 $(xml).find('included').each(function(){
                     $(this).find("pmid").each(function(){
                         var name = $(pmid).text();
                         alert(name);
                     });
                 });
-            }
-            fail: function(xml) {
-                alert("faile")
             }
       });
     });
