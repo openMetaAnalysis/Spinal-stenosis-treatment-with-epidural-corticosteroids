@@ -21,6 +21,8 @@ var url = "/template/tables/pico.xml";
                         //var name = $("citation").text();
                         //alert(name);
                         var patients = $(this).find('patients').text();
+                        $("#list").append('<li>' + patients + '</li>');
+                        $('#list').listview('refresh');
                         });
                 }
       });
@@ -28,6 +30,8 @@ var url = "/template/tables/pico.xml";
 </script>
 </head>
 <body>
-<div id="table"></div>
+      <ul id="list" data-role="listview" data-theme="a" data-filter="true">
+      <li id="load">Loading Data...</li>
+      </ul>
 </body>
 </html>
