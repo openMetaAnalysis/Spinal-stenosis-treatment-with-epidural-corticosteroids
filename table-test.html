@@ -4,29 +4,30 @@
 <meta charset="UTF-8"></meta>
 <title>Risk of bias table</title>
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
-<script>
-// Assign handlers immediately after making the request,
-// and remember the jqXHR object for this request
-var jqxhr = $.ajax( "https://raw.githubusercontent.com/openMetaAnalysis/template/master/tables/pico.xml" )
-.done(function() {
-alert( "success\n\n" + jqxhr );
-})
-.fail(function() {
-alert( "error" );
-})
-.always(function() {
-alert( "complete" );
-});
-// Perform other work here ...
-// Set another completion function for the request above
-jqxhr.always(function() {
-alert( "second complete" );
-});
-</script>
 </head>
 
 <body>
 <h2>Risk of bias Table</h2>
+<div id="images"></div>
+<script>
+(function() {
+var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+$.getJSON( flickerAPI, {
+tags: "mount rainier",
+tagmode: "any",
+format: "json"
+})
+.done(function( data ) {
+$.each( data.items, function( i, item ) {
+$( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+if ( i === 3 ) {
+return false;
+}
+});
+});
+})();
+</script>
+
 <a href="index.html">Return to summary</a>
 
 <div class="header_panel" id="header_bias"></div>
