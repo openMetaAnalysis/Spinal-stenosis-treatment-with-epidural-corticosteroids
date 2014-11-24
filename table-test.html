@@ -8,6 +8,24 @@
 //put this all in a central file!
 $(document).ready(function(){
 var url = "/template/tables/pico.xml";
+        $.ajax({
+            type: "GET",
+            url: url,
+            cache: false,
+            dataType: "xml",
+            success: function(xml) {
+                $(xml).find('members').each(function(){
+                    $(this).find("name").each(function(){
+                        var name = $(this).text();
+                        alert(name);
+                    });
+                });
+            }
+            fail: function(xml) {
+    alert("faile")
+            }
+      });
+    });
 $.getJSON( url, {
 format: "json"
 })
@@ -28,12 +46,6 @@ format: "json"
 })
 })
 </script>
-<style>
-img {
-height: 100px;
-float: left;
-}
-</style>
 </head>
 <body>
 <div id="table"></div>
