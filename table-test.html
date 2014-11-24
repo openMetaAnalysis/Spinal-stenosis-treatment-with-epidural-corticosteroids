@@ -3,18 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>jQuery.getJSON demo</title>
-<style>
-img {
-height: 100px;
-float: left;
-}
-</style>
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-<body>
-<div id="table"></div>
+<script src="//code.jquery.com/jquery-2.1.1.js"></script>
 <script>
-(function() {
+//put this all in a central file!
+$(document).ready(function(){
 var url = "http://raw.githubusercontent.com/openMetaAnalysis/template/master/tables/pico.xml";
 $.getJSON( url, {
 format: "json"
@@ -35,7 +27,16 @@ format: "json"
  alert( "always" );
 })
 }
-)
 </script>
+<style>
+img {
+height: 100px;
+float: left;
+}
+</style>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div id="table"></div>
 </body>
 </html>
