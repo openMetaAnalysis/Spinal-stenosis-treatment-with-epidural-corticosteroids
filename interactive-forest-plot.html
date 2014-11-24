@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive forest plot</title>
+<!-- jquery -->
+<script src="//code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+
+<!-- tooltip -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css" />
+
+<script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
+<script >
+
+//$(document).ready(function(){
+$(document).ready(function(){
+	//Link handlers
+	$('a').mouseleave(function(event){
+		$( "#tip" ).css('display', 'none');
+	});
+	$('a').mouseenter(function(event){
+		//alert($(this).attr("id"));
+		//alert($(this).attr('id'))
+		var trigger = $(this).attr('id')
+		event.preventDefault();
+		$("#div1").load("pico-table.html tr:contains('" + $(this).attr("pmid") + "')")
+		$("#div2").load("bias-table.html tr:contains('" + $(this).attr("pmid") + "')",function(responseTxt,statusTxt,xhr)
+		{
+		if(statusTxt=="success")
+			//alert("External content loaded successfully!\n\n");
+			$("#div1").html("<table class='tipster'><caption><b>PICO components</b></caption><tr><th>Trial</th><th>Patients</th><th>Intervention</th><th>Comparison</th><th>Outcome</th></tr>" + $("#div1").html() + "</table>")
+			$("#div2").html("<table class='tipster'><caption><b>Possible bias</b></caption><tr><th class='col1' rowspan='2'>Trial</th><th colspan='2'>Selection biases:</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>Other biases:</th></tr><tr><th>Random sequence generation</th><th>Allocation concealment</th><th>Blinding of participants and personnel</th><th>Blinding of outcome assessment</th><th>Incomplete outcome data</th><th>Selective reporting</th><th>E.g. imbalanced compliance , co-interventions, or other.</th></tr>" + $("#div2").html() + "</table>")
+			$( "#tip" ).css({"background-color":"black","border-color":"black","border-width":"2px"});
+			$( ".tipster" ).css({"display":"inline"});
+			$( ".tipster" ).css({"background-color":"white"});
+			$( ".tipster" ).css({"opacity":"1"});
+			$( ".tipster" ).css({"width":"500px"});
+			$( "#tip" ).offset({top: $("#" + trigger).position().top + 50, left:50})
+			//$( "#tip" ).css('border-style', 'solid' );
+			//$( "#tip" ).css('border-width', '3px' );
+			//alert(event.PageY)
+			//$( "#tip" ).offset({top: event.PageY + 25, left:100})
+			//$( "div" ).css({"background-color":"white"});
+			//$( "caption").css({"background-color":"white"});
+			//$( "td" ).css({"background-color":"white"});
+			$( "th" ).css({"background-color":"lightgray"});
+			$( "tr:contains('risk')").css({"text-align":"center"});
+			$( "td:contains('Unclear')" ).css({"background-color":"#ffcccc"});
+			$( "td:contains('High')" ).css({"background-color":"#ff5959"});
+			$( "tr:contains('Unclear')").find('td:first').css({"background-color":"#ffcccc"});
+			$( "tr:contains('High')").find('td:first').css({"background-color":"#ff5959"});	 
+			//alert($("#" + trigger).position().top)
+			//alert($("#tip").html());
+			//$(this).after($("#tip").html())
+			
+			if(statusTxt=="error")
+				alert("Error: "+xhr.status+": "+xhr.statusText);
+		});
+	});
+
+})
+
+</script>
+<style>
+.tooltiptext{
+    display: none;
+}
+div, table, td, tr, caption{
+background-color:white;
+}
+table{
+border-collapse: collapse;
+padding:1px 5px 1px 5px;
+}
+</style>
+</head>
+
+<body>
+<h1>Interactive forest plot</h1>
+<a href="index.html">Return to summary</a>
+<div>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="702"
+   height="461"
+   id="primary">
+  <image
+     xlink:href="Outcome - Primary.png"
+     id="forestplot"
+     height="461"
+     width="702"
+     y="0"
+     x="0" />
+  <defs
+     id="defs" />
+  <metadata
+     id="metadata3726">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/00000000"
+     pmid="Zahaar"
+     id="Zahaar_a">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="90"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/3155742"
+     pmid="3155742"
+	 id="3155742_a">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="105"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/9647457"
+     pmid="9647457"
+	 id="9647457_a">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="120"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/24988555"
+	 pmid="24988555"
+     id="24988555_a">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="190"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/9647457"
+     pmid="9647457"
+	 id="9647457_b">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="205"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/9647457"
+     pmid="9647457"
+     id="9647457_c">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="280"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/00000000"
+     pmid="Zahaar"
+	 id="Zahaar_b">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="350"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+  <a class="hastip"
+     xlink:href="http://pubmed.gov/3155742"
+     pmid="3155742"
+	 id="3155742_b">
+    <rect
+       width="325"
+       height="10"
+       x="15"
+       y="365"
+       style="fill:rgba(192,192,192,0.25);" />
+  </a>
+</svg>
+</div>
+<div id="tip"  class="tipster" style="background-color:white;opacity:1;display:none;">
+<div id="div1" class="tipster" style="background-color:white;opacity:1">
+</div>
+<div id="div2" class="tipster" style="background-color:white;opacity:1">
+</div>
+</div>
+</body>
+</html> 
