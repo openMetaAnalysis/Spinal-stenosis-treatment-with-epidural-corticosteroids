@@ -28,10 +28,10 @@ format: "json"
   }
  });
 })
-.fail(function() {
+.fail(function(data) {
  alert( "error" );
 })
-.always(function() {
+.always(function(data) {
  alert( "always" );
 })
 }
