@@ -18,12 +18,10 @@ var url = "/template/tables/pico.xml";
                 }
             success: function(xml) {
                 $(xml).find('study').each(function(){
-                    $(this).find("citation").each(function(){
                         //var name = $("citation").text();
                         //alert(name);
                         var patients = $(this).find('patients').text();
-                        alert(patients);
-                    });
+                        });
                 });
             }
       });
