@@ -20,20 +20,22 @@ $.getJSON( url, {
 format: "json"
 })
 .done(function( data ) {
-alert( "done" );
-$.each( data.items, function( i, item ) {
-$( "citation" ).attr( "pmid", item.media.m ).appendTo( "#table" );
-if ( i === 3 ) {
-return false;
-}
-});
-});
+ alert( "done" );
+ $.each( data.items, function( i, item ) {
+  $( "citation" ).attr( "pmid", item.media.m ).appendTo( "#table" );
+  if ( i === 3 ) {
+  return false;
+  }
+ });
+})
 .fail(function() {
  alert( "error" );
-});
+})
 .always(function() {
  alert( "always" );
-})();
+})
+}
+)
 </script>
 </body>
 </html>
