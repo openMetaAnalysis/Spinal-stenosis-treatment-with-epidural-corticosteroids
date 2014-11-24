@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<title>Risk of bias table</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
+<script src="http://openmetaanalysis.github.io/tables.js"></script>
+<link rel="stylesheet" href="/openmetaanalysis.css">
+<script>
+// Assign handlers immediately after making the request,
+// and remember the jqXHR object for this request
+var jqxhr = $.ajax( "https://raw.githubusercontent.com/openMetaAnalysis/Hypertonic-Saline-for-Bronchiolitis/master/data/Hospitalization%20-%20all%20trials.csv" )
+.done(function() {
+alert( "success\n\n" + jqxhr );
+})
+.fail(function() {
+alert( "error" );
+})
+.always(function() {
+alert( "complete" );
+});
+// Perform other work here ...
+// Set another completion function for the request above
+jqxhr.always(function() {
+alert( "second complete" );
+});
+</script>
+</head>
+
+<body>
+<h2>Risk of bias Table</h2>
+<a href="index.html">Return to summary</a>
+
+<div class="header_panel" id="header_bias"></div>
+
+<!-- Start your edits in the cells below -->
+
+<div class="body_panel">
+<table>
+<tbody>
+</tbody>
+</table>
+<!-- http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references -->
+Notes:<br/>
+* 
+</body>
+</html>
