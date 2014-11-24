@@ -12,18 +12,16 @@ float: left;
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-<div id="images"></div>
+<div id="table"></div>
 <script>
 (function() {
-var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-$.getJSON( flickerAPI, {
-tags: "mount rainier",
-tagmode: "any",
+var url = "https://raw.githubusercontent.com/openMetaAnalysis/template/master/tables/pico.xml?";
+$.getJSON( url, {
 format: "json"
 })
 .done(function( data ) {
 $.each( data.items, function( i, item ) {
-$( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+$( "citation" ).attr( "pmid", item.media.m ).appendTo( "#table" );
 if ( i === 3 ) {
 return false;
 }
