@@ -14,36 +14,18 @@ var url = "/template/tables/pico.xml";
             cache: false,
             dataType: "xml",
             success: function(xml) {
-                $(xml).find('members').each(function(){
-                    $(this).find("name").each(function(){
-                        var name = $(this).text();
+                $(xml).find('included').each(function(){
+                    $(this).find("pmid").each(function(){
+                        var name = $(pmid).text();
                         alert(name);
                     });
                 });
             }
             fail: function(xml) {
-    alert("faile")
+                alert("faile")
             }
       });
     });
-$.getJSON( url, {
-format: "json"
-})
-.done(function( data ) {
- alert( "done" );
- $.each( data.items, function( i, item ) {
-  $( "citation" ).attr( "pmid", item.media.m ).appendTo( "#table" );
-  if ( i === 3 ) {
-  return false;
-  }
- });
-})
-.fail(function(data) {
- alert( "error" );
-})
-.always(function(data) {
- alert( "always" );
-})
 })
 </script>
 </head>
