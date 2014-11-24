@@ -15,7 +15,7 @@ var url = "/template/tables/pico.xml";
             dataType: "xml",
             error: function() {
                 alert("The XML File could not be processed correctly.");
-                }
+                },
             success: function(xml) {
                 $(xml).find('study').each(function(){
                         //var name = $("citation").text();
