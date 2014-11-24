@@ -15,9 +15,9 @@ var url = "/template/tables/pico.xml";
             dataType: "xml",
             success: function(xml) {
                     alert("success");
-                $(xml).find('included').each(function(){
-                    $(this).find("pmid").each(function(){
-                        var name = $(pmid).text();
+                $(xml).find('study').each(function(){
+                    $(this).find("citation").each(function(){
+                        var name = $("citation").text();
                         alert(name);
                     });
                 });
