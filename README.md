@@ -1,35 +1,19 @@
 Epidural corticosteroids for spinal stenosis: a living systematic review
 ============================================
 
-**Clinical summary:** This meta-analysis suggests that the clinical intervention is *not clearly effective* at 4-6 weeks. Effect noted by Fukusaki at one week from corticosteroids is similar to the effect of local anesthetics. However, the quality of evidence is *low* ([see methods](https://github.com/openMetaAnalysis/_Methods/blob/master/README.md)) due to imprecision of results and the heterogeneity or inconsistency of results. Additional interpretations may be in the references in the 'Cited by' section below.
+* Go to the long url near the top of this page that starts with 'openmetaanalysis.github.io/'
+* Or go to http://openmetaanalysis.github.io/
 
-**Methods overview:** This repository contains the [source data](../../tree/master/data), matching [forest plots](../../tree/master/forest%20plots) and  [GRADE profiles](../../tree/master/GRADE%20profiles) for an [open  MetaAnalysis](https://openMetaAnalysis) of this intervention. This repository updates a previously published meta-analysis.(1) Newer trials included are listed below in the references. Rationale for newer trials excluded may be listed at the end of the references.  See [methods](https://github.com/openMetaAnalysis/_Methods/blob/master/README.md) for details.
+**If you are an author and want to revise or add to this analysis:**
 
-**Results:** Details of the studies included are in the [PICO table](../../wiki/PICO-Table) and [risk of bias table](../../wiki/Risk-of-bias-table). Rationale for studies excluded may be listed at the end of the references below.  See [see methods](https://github.com/openMetaAnalysis/_Methods/blob/master/README.md) for details.
+Text files:
+* [PICO table](../../tree/gh-pages/tables/pico.xml)
+* [Risk of bias table](../../tree/gh-pages/tables/bias.xml)
+* [Data tables](../../tree/master/data)
+* [Clinical summary and references](../../tree/gh-pages/index.html)
 
-Below is the forest plot for the primary outcome. [Forest plots](../../tree/master/forest%20plots) for other outcomes may be available.
-![Image of forest plot of primary outcome](https://raw.githubusercontent.com/openMetaAnalysis/Epidural-corticosteroids-for-spinal-stenosis /master/forest%20plots/Outcome%20-%20Primary.png "Principle results")
+Images (hint: use Git Client for [Windows](https://windows.github.com/) or [Mac](https://mac.github.com/) to upload these from your computer):
+* [Forest plots](../../tree/master/forest plots/)
+* [GRADE Profiles](../../tree/master/GRADE Profiles)
 
-
-Below is the GRADE Profile for the quality of the primary outcome.
-![Image of GRADE Profile of primary outcome](https://raw.githubusercontent.com/openMetaAnalysis/Epidural-corticosteroids-for-spinal-stenosis /master/GRADE%20profiles/Outcome%20-%20Primary.png "Principle results")
-
-
-References:
-----------------------------------
-
-### Systematic review(s)
-####Most recent review at time of last revision of this repository
-1. Ammendolia C, Stuber KJ, Rok E, Rampersaud R, Kennedy CA, Pennick V, Steenstra IA, de Bruin LK, Furlan AD. Nonoperative treatment for lumbar spinal stenosis with neurogenic claudication. Cochrane Database Syst Rev. 2013 Aug 30;8:CD010712. doi: [10.1002/14651858.CD010712](http://dx.doi.org/10.1002/14651858.CD010712). PMID: [23996271](http://pubmed.gov/23996271).
-
-### Randomized controlled trials
-#### New trial(s) *not* included in the most recent review above
-1. Friedly JL, Comstock BA, Turner JA, Heagerty PJ, Deyo RA, Sullivan SD, Bauer Z, Bresnahan BW, Avins AL, Nedeljkovic SS, Nerenz DR, Standaert C, Kessler L, Akuthota V, Annaswamy T, Chen A, Diehn F, Firtch W, Gerges FJ, Gilligan C,
-Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasan A, Won L, Jarvik JG. A randomized trial of epidural glucocorticoid injections for spinal stenosis. N Engl J Med. 2014 Jul 3;371(1):11-21. doi: [10.1056/NEJMoa1313265](http://dx.doi.org/10.1056/NEJMoa1313265). PMID: [24988555](http://pubmed.gov/24988555).
-
-####Trials excluded - selected list of important trials
-
-####Cited by
-This repository is cited by:
-
-1. WikiDoc contributors. Spinal stenosis medical therapy. WikiDoc. Nov 9, 2014. Available at: http://www.wikidoc.org/index.php/Spinal_stenosis_medical_therapy. Accessed November 9, 2014. 
+[Methods](https://github.com/openMetaAnalysis/_Methods/blob/master/README.md) used by these reviews.
