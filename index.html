@@ -51,8 +51,8 @@ Additional interpretations may be in the references in the 'Cited by' section be
 
 <p><strong>Results:</strong> Details of the studies included are in the:</p>
 <ul>
-<li><a href="/pico-table.html">PICO table</a></li>
-<li><a href="/bias-table.html">Risk of bias table</a></li>
+<li><a href="pico-table.html">PICO table</a></li>
+<li><a href="bias-table.html">Risk of bias table</a></li>
 </ul>
 
 <p>Below is the forest plot for the primary outcome. <a href="forest%20plots/" class="master-dir">Forest plots</a> for other outcomes may be available.
@@ -100,8 +100,17 @@ Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasa
       <footer>
         <p>This project is maintained by <a href="http://openmetaanalysis.github.io/">openMetaAnalysis</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<script>
+//For gh-pages
+//Page history and edit
+var pagename = location.pathname.split('/').slice(-1);
+if (pagename.length < 2){pagename = "index.html"}
+document.write("<div style='text-align:center'><a href='https://github.com/openMetaAnalysis/" + repo_dir + "/blob/gh-pages/" + pagename + "'>Edit this page</a> - <a href='https://github.com/openMetaAnalysis/" + repo_dir + "/commits/gh-pages/" + pagename + "'>Page history</a></div>")
+</script>
+
       </footer>
-    </div>
+
+</div>
     <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -113,6 +122,5 @@ Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasa
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
-  </body>
+</body>
 </html>
