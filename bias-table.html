@@ -6,7 +6,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 <script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
 <script src="http://openmetaanalysis.github.io/tables.js"></script>
+<script>
+$(document).ready(function () {
+var num = 0;
+var denom = $("tr").length;
+$("#answer").html('Low risk')
+num = $("tr:contains('High')").length;
+if (num/denom > 0.5){$("#judgment").html('High risk');$("#judgment").css('background-color','#ffcccc')};
+num = $("tr:contains('Unclear')").length;
+if (num/denom > 0.5){$("#judgment").html('High risk');$("#judgment").css('background-color','#ff5959')};
+})
+</script>
 <link rel="stylesheet" href="/openmetaanalysis.css">
+<style>
+table{width:100%);
+</style>
 </head>
 
 <body>
@@ -18,6 +32,7 @@
 <!-- Start your edits in the cells below -->
 
 <div class="body_panel">
+<table><tr><td class="col1" id="judgment"></td><td id="rationale"></td></tr></table>
 <table>
 <tbody>
 <tr>
