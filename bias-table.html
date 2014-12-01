@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"></meta>
+<meta charset="UTF-8">
 <title>Risk of bias table</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 <script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
@@ -10,7 +10,6 @@
 $(document).ready(function () {
 var num = 0;
 var denom = $("tr:contains('PMID')").length;
-alert(denom)
 $("#answer").html('Low risk')
 num = $("tr:contains('High')").length;
 if (num/denom > 0.5){$("#judgment").html('High risk');$("#judgment").css('background-color','#ffcccc')};
@@ -173,5 +172,6 @@ table{width:100%}
 <!-- http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references -->
 Notes:<br/>
 * 
+</div>
 </body>
 </html>
