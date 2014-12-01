@@ -21,7 +21,7 @@ ratio = $("tr:contains('Unclear')").length/denom;
 if (ratio > 0.5){
 	$("#judgment").html('High risk');
 	$("#judgment").css('background-color','#ff5959')};
-	$("#rationale").html("\'The proportion of information from studies at high risk of bias (" + ratio.toFixed(2) + ") is sufficient to affect the interpretation of results.\' (<a href=\'http://handbook.cochrane.org/chapter_8/table_8_7_a_possible_approach_for_summary_assessments_of_the.htm\'>Cochrane Handbook</a>)")
+	$("#rationale").html("\'The proportion of information from studies at high risk of bias (<span style='color:red;font-weight:bold'>" + ratio.toFixed(2) + "</span>) is sufficient to affect the interpretation of results.\' (<a href=\'http://handbook.cochrane.org/chapter_8/table_8_7_a_possible_approach_for_summary_assessments_of_the.htm\'>Cochrane Handbook</a>)")
 })
 </script>
 <link rel="stylesheet" href="/openmetaanalysis.css">
@@ -38,14 +38,15 @@ caption{
 </head>
 
 <body>
+<div class="wrapper">
 <h2>Risk of bias Table</h2>
 <a href="index.html">Return to summary</a>
 
-<table style="border:none;max-width:600px;right: 10px;">
+<table style="border:none;max-width:600px;float:right">
 <caption>Summary assessment of the risk of bias across included studies</caption>
 <tr><td class="col1" id="judgment" style="vertical-align: middle;text-align:center;max-width:100px;width:100px;">&nbsp;</td>
 <td id="rationale" style="border-style: none;"></td></tr></table>
-
+<div style="clear:both">&nbsp;</div>
 <div class="header_panel" id="header_bias"></div>
 
 <!-- Start your edits in the cells below -->
@@ -189,6 +190,7 @@ caption{
 <!-- http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references -->
 Notes:<br/>
 * 
+</div>
 </div>
 </body>
 </html>
