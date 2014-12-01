@@ -9,7 +9,8 @@
 <script>
 $(document).ready(function () {
 var num = 0;
-var denom = $("tr").length;
+var denom = $("tr:contains('PMID')").length;
+alert(denom)
 $("#answer").html('Low risk')
 num = $("tr:contains('High')").length;
 if (num/denom > 0.5){$("#judgment").html('High risk');$("#judgment").css('background-color','#ffcccc')};
