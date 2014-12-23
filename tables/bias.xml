@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <included>
 <!-- start of a new study -->
+<study>
 <citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="73" >Cuckler</citation>
 <randomization>Unclear risk</randomization>
 <allocation>Unclear risk</allocation>
@@ -11,6 +12,7 @@
 <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
+<study>
 <citation pmid="NA" year="1991" journal_abbrev="J Neurol Orthop Med Surg" totalsubjects="39" >Zahaar</citation>
 <randomization>Unclear risk</randomization>
 <allocation>Unclear risk</allocation>
@@ -21,6 +23,7 @@
 <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
+<study>
 <citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain" totalsubjects="53" >Fukusaki</citation>
 <randomization>Unclear risk</randomization>
 <allocation>Unclear risk</allocation>
@@ -31,6 +34,7 @@
 <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
+<study>
 <citation pmid="24988555" year="2014" journal_abbrev="N Engl J Med" totalsubjects="400" >Friedly</citation>
 <randomization>Low risk</randomization>
 <allocation>Low risk risk</allocation>
