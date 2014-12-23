@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+<!-- start of a new study -->
+<citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am">Cuckler</citation>
+<randomization> risk</randomization>
+<allocation> risk</allocation>
+<blinding_people> risk</blinding_people>
+<blinding_assessment> risk</blinding_assessment>
+<attrition> risk</attrition>
+<selective_reporting> risk</selective_reporting>
+<other_biases> risk</other_biases>
+</study>
+<!-- start of a new study -->
+<citation pmid="NA" year="1991" journal_abbrev="J Neurol Orthop Med Surg">Zahaar</citation>
+<randomization> risk</randomization>
+<allocation> risk</allocation>
+<blinding_people> risk</blinding_people>
+<blinding_assessment> risk</blinding_assessment>
+<attrition> risk</attrition>
+<selective_reporting> risk</selective_reporting>
+<other_biases> risk</other_biases>
+</study>
+<!-- start of a new study -->
+<citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain">Fukusaki</citation>
+<randomization> risk</randomization>
+<allocation> risk</allocation>
+<blinding_people> risk</blinding_people>
+<blinding_assessment> risk</blinding_assessment>
+<attrition> risk</attrition>
+<selective_reporting> risk</selective_reporting>
+<other_biases> risk</other_biases>
+</study>
+<!-- start of a new study -->
+<citation pmid="24988555" year="2014" journal_abbrev="N Engl J Med">Friedly</citation>
+<randomization> risk</randomization>
+<allocation> risk</allocation>
+<blinding_people> risk</blinding_people>
+<blinding_assessment> risk</blinding_assessment>
+<attrition> risk</attrition>
+<selective_reporting> risk</selective_reporting>
+<other_biases> risk</other_biases>
+</study>
+</included>
