@@ -3,7 +3,11 @@
 * Go to the long url near the top of this page that starts with 'openmetaanalysis.github.io/'
 * Or go to http://openmetaanalysis.github.io/
 
-**If you are an author and want to revise or add to this analysis:**
+**If you want to comment on this meta-analysis:**
+* Contact a [contributor](../../network/members) is you need access
+* Open an [issue](../../issues/new)
+
+**If you want to update this meta-analysis:**
 
 Text files:
 * [PICO table](../../tree/gh-pages/tables/pico.xml)
@@ -16,3 +20,9 @@ Images (hint: use Git Client for [Windows](https://windows.github.com/) or [Mac]
 * [GRADE Profiles](../../tree/master/GRADE-Profiles)
 
 [Methods](https://github.com/openMetaAnalysis/_Methods/blob/master/README.md) used by these reviews.
+
+**Do you want to contribute:**
+
+* '[Fork](../../fork)' this repository
+* Make your edits
+* Initiate a '[Pull request](../../compare/)' for your changes to be merged.
