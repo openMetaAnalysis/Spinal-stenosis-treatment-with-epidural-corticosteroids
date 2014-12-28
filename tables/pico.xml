@@ -2,18 +2,17 @@
 <included>
 <!-- start of a new study -->
 <study>
-<citation year="1997" pmid="9171065" nct="" journal_abbrev="N Engl J Med">Carette</citation>
+<citation year="1985" pmid="3155742" nct="" journal_abbrev="J Bone Joint Surg Am">Cuckler</citation>
 <design>Randomized controlled trial</design>
-<patients total="__">Spinal stenosis
-<bullet>Computerized random number generator</bullet>
-<bullet>Mean age __ months</bullet>
+<patients total="37">Spinal stenosis
+<bullet>Unclear method of randomization</bullet>
+<bullet>Mean age unclear</bullet>
 </patients>
-<intervention>Epidural injection
-<bullet>Amount?</bullet>
-<bullet>Frequency?</bullet>
-<bullet>Duration?</bullet>
+<intervention>Epidural injection of hydrocortisone and carbocaine
+<bullet>7 ml</bullet>
+<bullet>Repearted at 24 hours if less than 50% improvement</bullet>
 </intervention>
-<comparison>Salline
+<comparison>Saline
 </comparison>
 <outcome>Various
 <bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
@@ -22,62 +21,57 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="2011" pmid="21914755" nct="" journal_abbrev="BMJ">Iversen</citation>
+<citation year="1991" pmid="#" nct="" journal_abbrev="J Neurol Orthop Med Surg">Zahhar</citation>
 <design>Randomized controlled trial</design>
-<patients total="__">Spinal stenosis
-<bullet>Computerized random number generator</bullet>
-<bullet>Mean age __ months</bullet>
+<patients total="30">Spinal stenosis
+<bullet>Unclear method of randomization</bullet>
+<bullet>Mean age unclear</bullet>
 </patients>
-<intervention>Epidural injection
-<bullet>Amount?</bullet>
-<bullet>Frequency?</bullet>
-<bullet>Duration?</bullet>
+<intervention>Epidural injection of hydrocortisone and carbocaine
+<bullet>**30 ml**</bullet>
 </intervention>
 <comparison>Salline
 </comparison>
-<outcome>Various
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
-<bullet type='secondary'>Criteria used or how measured?</bullet>
+<outcome>
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>Subjetive improvement of 75%</bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="2012" pmid="22508732" nct="" journal_abbrev="Ann Intern Med">Cohen</citation>
+<citation year="1998" pmid="9647457" nct="" journal_abbrev="Clin J Pain">Fukusaki</citation>
 <design>Randomized controlled trial</design>
-<patients total="__">Spinal stenosis
-<bullet>Computerized random number generator</bullet>
-<bullet>Mean age __ months</bullet>
+<patients total="35">Spinal stenosis
+<bullet>Unclear method of randomization</bullet>
+<bullet>Mean age 70 years</bullet>
 </patients>
-<intervention>Epidural injection
-<bullet>Amount?</bullet>
-<bullet>Frequency?</bullet>
-<bullet>Duration?</bullet>
+<intervention>8 mL of 40 mg of methylprednisone and 1% mepivacaine
+<bullet>Twice over one week</bullet>
 </intervention>
-<comparison>Salline
+<comparison>Two control groups
+<bullet>8 mL of saline twice in the first week</bullet>
+<bullet>8 mL of 1% mepivacaine twice in the first week</bullet>
 </comparison>
-<outcome>Various
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
-<bullet type='secondary'>Criteria used or how measured?</bullet>
+<outcome>
+<bullet type='primary'>Walking distance at 1 week, 1 month, 3 months. Good response defined as 20 meters or more</bullet></bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="2014" pmid="25304934" nct="" journal_abbrev="BMC Musculoskelet Disord">Spijker-Huiges</citation>
+<citation year="2014" pmid="24988555" nct="" journal_abbrev="N Engl J Med">Friedly</citation>
 <design>Randomized controlled trial</design>
-<patients total="__">Spinal stenosis
-<bullet>Computerized random number generator</bullet>
-<bullet>Mean age __ months</bullet>
+<patients total="400">Spinal stenosis
+<bullet>Coordinating center generated electronically concealed, permuted-block randomized assignments for each recruitment site</bullet>
+<bullet>Mean age 68 years/bullet>
 </patients>
-<intervention>Epidural injection
-<bullet>Amount?</bullet>
-<bullet>Frequency?</bullet>
-<bullet>Duration?</bullet>
+<intervention>Epidural injection with glucocorticoids (various preparations) plus lidocaine<
+Epidural injection with lidocaine alone
+<bullet>Once with optional repeat injection at 3 weeks</bullet>
 </intervention>
-<comparison>Salline
+<comparison>Epidural injection with lidocaine alone
 </comparison>
-<outcome>Various
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
-<bullet type='secondary'>Criteria used or how measured?</bullet>
+<outcome>
+<bullet type='primary' url='http://www.rmdq.org/'>Roland-Morris Disability Questionnaire (RMDQ)</bullet>
+<bullet type='secondary'>Leg pain rated on a 10 point scale</bullet>
 </outcome>
 </study>
 <!-- Leave this bottom line -->
