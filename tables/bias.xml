@@ -24,13 +24,13 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain" totalsubjects="53" >Fukusaki</citation>
+<citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain" totalsubjects="35" >Fukusaki</citation>
 <randomization>Unclear risk</randomization>
 <allocation>Unclear risk</allocation>
-<blinding_people>Unclear risk</blinding_people>
-<blinding_assessment>High risk</blinding_assessment>
-<attrition>High risk</attrition>
-<selective_reporting>High risk</selective_reporting>
+<blinding_people explanation="Blinding not stated">Unclear risk</blinding_people>
+<blinding_assessment>Low risk</blinding_assessment>
+<attrition>Low risk</attrition>
+<selective_reporting>Unclear risk</selective_reporting>
 <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
