@@ -15,7 +15,7 @@
 <comparison>Saline
 </comparison>
 <outcome>Various
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
+<bullet type='primary'>When measured or duration of follow-up?</bullet>
 <bullet type='secondary'>Criteria used or how measured?</bullet>
 </outcome>
 </study>
@@ -30,10 +30,10 @@
 <intervention>Epidural injection of hydrocortisone and carbocaine
 <bullet>**30 mL**</bullet>
 </intervention>
-<comparison>Salline
+<comparison>Saline
 </comparison>
 <outcome>
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>Subjective improvement of 75%</bullet>
+<bullet type='primary'>Subjective improvement of 75%</bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
