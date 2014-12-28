@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+<!-- start of a new study -->
+<study>
+<citation year="1997" pmid="9171065" nct="" journal_abbrev="N Engl J Med">Carette</citation>
+<design>Randomized controlled trial</design>
+<patients total="__">Spinal stenosis
+<bullet>Computerized random number generator</bullet>
+<bullet>Mean age __ months</bullet>
+</patients>
+<intervention>Epidural injection
+<bullet>Amount?</bullet>
+<bullet>Frequency?</bullet>
+<bullet>Duration?</bullet>
+</intervention>
+<comparison>Salline
+</comparison>
+<outcome>Various
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
+<bullet type='secondary'>Criteria used or how measured?</bullet>
+</outcome>
+</study>
+<!-- start of a new study -->
+<study>
+<citation year="2011" pmid="21914755" nct="" journal_abbrev="BMJ">Iversen</citation>
+<design>Randomized controlled trial</design>
+<patients total="__">Spinal stenosis
+<bullet>Computerized random number generator</bullet>
+<bullet>Mean age __ months</bullet>
+</patients>
+<intervention>Epidural injection
+<bullet>Amount?</bullet>
+<bullet>Frequency?</bullet>
+<bullet>Duration?</bullet>
+</intervention>
+<comparison>Salline
+</comparison>
+<outcome>Various
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
+<bullet type='secondary'>Criteria used or how measured?</bullet>
+</outcome>
+</study>
+<!-- start of a new study -->
+<study>
+<citation year="2012" pmid="22508732" nct="" journal_abbrev="Ann Intern Med">Cohen</citation>
+<design>Randomized controlled trial</design>
+<patients total="__">Spinal stenosis
+<bullet>Computerized random number generator</bullet>
+<bullet>Mean age __ months</bullet>
+</patients>
+<intervention>Epidural injection
+<bullet>Amount?</bullet>
+<bullet>Frequency?</bullet>
+<bullet>Duration?</bullet>
+</intervention>
+<comparison>Salline
+</comparison>
+<outcome>Various
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
+<bullet type='secondary'>Criteria used or how measured?</bullet>
+</outcome>
+</study>
+<!-- start of a new study -->
+<study>
+<citation year="2014" pmid="25304934" nct="" journal_abbrev="BMC Musculoskelet Disord">Spijker-Huiges</citation>
+<design>Randomized controlled trial</design>
+<patients total="__">Spinal stenosis
+<bullet>Computerized random number generator</bullet>
+<bullet>Mean age __ months</bullet>
+</patients>
+<intervention>Epidural injection
+<bullet>Amount?</bullet>
+<bullet>Frequency?</bullet>
+<bullet>Duration?</bullet>
+</intervention>
+<comparison>Salline
+</comparison>
+<outcome>Various
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>When measured or duration of follow-up?</bullet>
+<bullet type='secondary'>Criteria used or how measured?</bullet>
+</outcome>
+</study>
+<!-- Leave this bottom line -->
+</included>
