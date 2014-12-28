@@ -1,108 +1,28 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>PICO table</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
-<script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
-<script src="http://openmetaanalysis.github.io/tables.js"></script>
+<meta charset="utf-8">
+<title>openMetaAnalysis: PICO Table</title>
+<script src="//code.jquery.com/jquery-2.1.1.js"></script>
+<script src="/table-pico.js"></script>
+<script src="/openmetaanalysis.js"></script>
 <link rel="stylesheet" href="/openmetaanalysis.css">
 </head>
-
 <body>
-<h2>PICO Table</h2>
+<div class="wrapper">
+<h1>openMetaAnalysis: PICO Table</h1>
+<h2><span class="repo_name"></span></h2>
+
 <a href="index.html">Return to summary</a>
+
 <div class="header_panel" id="header_pico"></div>
 
-<!-- Start your edits in the cells below-->
 <div class="body_panel">
-<table>
-<tbody>
-<tr>
-	<td>
-	<!-- Citation -->
-	Friedly, 2014<br>N Engl J Med<br>PMID: <a href="http://pubmed.gov/24988555">24988555</a>
-	</td>
-	<td>
-	<!-- Patients, population, problem-->
-	400 subject:s<br>Mean age of 68 years</td>
-	<td>
-	<!-- Intervention -->
-	Epidural injection with glucocorticoids (various preparations) plus lidocaine</td>
-	<td>
-	<!-- Comparison-->
-	Epidural injection with lidocaine alone</td>
-	<td>
-	<!-- Outcome-->
-	Roland-Morris Disability Questionnaire (RMDQ)<br>Leg pain rated on a 10 point scale</td>
-</tr>
-<tr>
-	<td>
-	<!-- Citation -->
-	Fukusaki, 1998<br>Clin J Pain<br>PMID: <a href="http://pubmed.gov/9647457">9647457</a>
-	</td>
-	<td>
-	<!-- Patients, population, problem-->
-	53 subjects:<br>Mean age of 70 years</td>
-	<td>
-	<!-- Intervention -->
-	8 mL of 40 mg of methylprednisone and 1% mepivacaine twice in the first week</td>
-	<td>
-	<!-- Comparison-->
-	Two control groups:<br>
-	1) 8 mL of saline twice in the first week<br>
-	2) 8 mL of 1% mepivacaine twice in the first week</td>
-	<td>
-	<!-- Outcome-->
-	Walking distance at 1 week, 1 month, 3 months. Good response defined as 20 meters or more</td>
-</tr>
-<tr>
-	<td>
-	<!-- Citation -->
-	Zahaar, 1991<br>J Neurol Orthop Med Surg<br>PMID: NA
-	</td>
-	<td>
-	<!-- Patients, population, problem-->
-	39 subjects:<br>Mean age of 48 years</td>
-	<td>
-	<!-- Intervention -->
-	<emphasis>30 mL</emphasis> containing hydrocortisone and carbocaine
-	</td>
-	<td>
-	<!-- Comparison-->
-	<emphasis>30 mL</emphasis> containing carbocaine
-	</td>
-	<td>
-	<!-- Outcome-->
-	&bull; Subjective 75% improvement within 24 hours<br/>
-	&bull; Reinjection and surgery rates<br>
-	</td>
-</tr>
-<tr>
-	<td>
-	<!-- Citation -->
-	Cuckler, 1985<br>J Bone Joint Surg Am<br>PMID: <a href="http://pubmed.gov/3155742" target="_blank">3155742</a>
-	</td>
-	<td>
-	<!-- Patients, population, problem-->
-	73 subjects:<br>Mean age of 49 years</td>
-	<td>
-	<!-- Intervention -->
-	<emphasis>30 mL</emphasis> containing hydrocortisone and carbocaine
-	</td>
-	<td>
-	<!-- Comparison-->
-	<emphasis>30 mL</emphasis> containing carbocaine
-	</td>
-	<td>
-	<!-- Outcome-->
-	&bull; Subjective 75% improvement within 24 hours<br/>
-	&bull; Surgery rates<br>
-	</td>
-</tr>
-</tbody>
+<table id="citations">
 </table>
-<!-- http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references -->
+</div>
+<div>&nbsp;</div>
+
 <script>
 //For gh-pages
 //Page history and edit and issues
