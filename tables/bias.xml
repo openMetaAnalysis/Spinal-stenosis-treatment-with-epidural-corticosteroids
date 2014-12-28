@@ -2,13 +2,13 @@
 <included>
 <!-- start of a new study -->
 <study>
-<citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="73" >Cuckler</citation>
+<citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="37" >Cuckler</citation>
 <randomization>Unclear risk</randomization>
 <allocation>Unclear risk</allocation>
-<blinding_people>High risk</blinding_people>
-<blinding_assessment>High risk</blinding_assessment>
-<attrition>High risk</attrition>
-<selective_reporting>High risk</selective_reporting>
+<blinding_people>Low risk</blinding_people>
+<blinding_assessment>Low risk</blinding_assessment>
+<attrition>Low risk</attrition>
+<selective_reporting>Unclear risk</selective_reporting>
 <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
