@@ -28,12 +28,12 @@
 <bullet>Mean age unclear</bullet>
 </patients>
 <intervention>Epidural injection of hydrocortisone and carbocaine
-<bullet>**30 ml**</bullet>
+<bullet>**30 mL**</bullet>
 </intervention>
 <comparison>Salline
 </comparison>
 <outcome>
-<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>Subjetive improvement of 75%</bullet>
+<bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'>Subjective improvement of 75%</bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
@@ -44,7 +44,8 @@
 <bullet>Unclear method of randomization</bullet>
 <bullet>Mean age 70 years</bullet>
 </patients>
-<intervention>8 mL of 40 mg of methylprednisone and 1% mepivacaine
+<intervention>40 mg of methylprednisone and 1% mepivacaine
+<bullet>8 mL</bullet>
 <bullet>Twice over one week</bullet>
 </intervention>
 <comparison>Two control groups
