@@ -1,0 +1,6 @@
+Study,Year,PMID,experimental_events,experimental_total,control_events,control_total, Cofactor,
+Cuckler, 1985, 3155742, 5, 20, 3, 17, '1-7 days',
+Fukusaki, 1998, 9647457, 12, 19, 10, 18, '1-7 days',
+Fukusaki, 1998, 9647457, 1, 19, 3, 18, '4-6 weeks',
+Fukusaki, 1998, 9647457, 1, 19, 1, 18, '3 months',
+Cuckler, 1985, 3155742, 5, 23, 2, 14, 'More than one year',
