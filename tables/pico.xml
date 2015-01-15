@@ -15,9 +15,9 @@
 </intervention>
 <comparison>**Procaine**
 </comparison>
-<outcome>Various
-<bullet type='primary'>When measured or duration of follow-up?</bullet>
-<bullet type='secondary'>Criteria used or how measured?</bullet>
+<outcome>
+<bullet type='primary'>75% or more self-reported improvement 24 hours after injection</bullet>
+<bullet type='secondary'>75% or more self-reported improvement mean of 21 months after injection</bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
@@ -36,7 +36,8 @@
 <bullet>**30 mL**</bullet>
 </comparison>
 <outcome>
-<bullet type='primary'>Subjective improvement of 75%</bullet>
+<bullet type='primary'>75% or more self-reported improvement 24 hours after injection</bullet>
+<bullet type='secondary'>75% or more self-reported improvement mean of 21 months after injection (range of months was different than Cuckler)</bullet>
 </outcome>
 </study>
 <!-- start of a new study -->
