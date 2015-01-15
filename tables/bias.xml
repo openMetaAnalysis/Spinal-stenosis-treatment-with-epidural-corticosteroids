@@ -2,46 +2,56 @@
 <included>
 <!-- start of a new study -->
 <study>
-<citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="37" >Cuckler</citation>
-<randomization>Unclear risk</randomization>
-<allocation>Unclear risk</allocation>
-<blinding_people>Low risk</blinding_people>
-<blinding_assessment>Low risk</blinding_assessment>
-<attrition>Low risk</attrition>
-<selective_reporting>Unclear risk</selective_reporting>
-<other_biases>Unclear risk</other_biases>
+  <citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="37" >Cuckler</citation>
+  <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
+  <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
+  <blinding_people>Low risk</blinding_people>
+  <blinding_assessment>Low risk</blinding_assessment>
+  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
+  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
 <study>
 <citation pmid="NA" year="1991" journal_abbrev="J Neurol Orthop Med Surg" totalsubjects="30" >Zahaar</citation>
-<randomization>Unclear risk</randomization>
-<allocation>Unclear risk</allocation>
-<blinding_people explanation="Blinding noted of patients, but not stated regarding providers">Unclear risk</blinding_people>
-<blinding_assessment>Unclear risk</blinding_assessment>
-<attrition>Unclear risk</attrition>
-<selective_reporting>Unclear risk</selective_reporting>
-<other_biases>Unclear risk</other_biases>
+  <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
+  <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
+  <blinding_people explanation="Blinding noted of patients, but not stated regarding providers">Unclear risk</blinding_people>
+  <blinding_assessment>Unclear risk</blinding_assessment>
+  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
+  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
 <study>
-<citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain" totalsubjects="35" >Fukusaki</citation>
-<randomization>Unclear risk</randomization>
-<allocation>Unclear risk</allocation>
-<blinding_people explanation="Blinding not stated">Unclear risk</blinding_people>
-<blinding_assessment>Low risk</blinding_assessment>
-<attrition>Low risk</attrition>
-<selective_reporting>Unclear risk</selective_reporting>
-<other_biases>Unclear risk</other_biases>
+  <citation pmid="9647457" year="1998" journal_abbrev="Clin J Pain" totalsubjects="35" >Fukusaki</citation>
+  <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
+  <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
+  <blinding_people explanation="Blinding not stated">Unclear risk</blinding_people>
+  <blinding_assessment>Low risk</blinding_assessment>
+  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
+  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <other_biases>Unclear risk</other_biases>
+</study>
+<study>
+<citation year="2012" pmid="22652990" trialregistration="NCT00370799" journal_abbrev="J Spinal Disord Tech" totalsubjects="0" >Manchikanti</citation>
+  <randomization explanation="Method of randomization not described">Unclear risk</randomization>
+  <allocation explanation="Method of concealing allocation not stated"> risk</allocation>
+  <blinding_people explanation="Did not state blinding of subjects and personnel."> risk</blinding_people>
+  <blinding_assessment explanation="Blinding of assessors not stated">Unclear risk</blinding_assessment>
+  <attrition explanation="Consort flow diagram not provided">Unclear risk</attrition>
+  <selective_reporting explanation="Original protocol not available at a website for trial registration."> risk</selective_reporting>
+  <other_biases> risk</other_biases>
 </study>
 <!-- start of a new study -->
 <study>
-<citation pmid="24988555" year="2014" journal_abbrev="N Engl J Med" totalsubjects="400" >Friedly</citation>
-<randomization>Low risk</randomization>
-<allocation>Low risk risk</allocation>
-<blinding_people>Low risk</blinding_people>
-<blinding_assessment>Low risk</blinding_assessment>
-<attrition> risk</attrition>
-<selective_reporting>Low risk</selective_reporting>
-<other_biases>Low risk</other_biases>
+  <citation pmid="24988555" year="2014" trialregistration="NCT01238536" journal_abbrev="N Engl J Med" totalsubjects="400" >Friedly</citation>
+  <randomization>Low risk</randomization>
+  <allocation>Low risk risk</allocation>
+  <blinding_people>Low risk</blinding_people>
+  <blinding_assessment>Low risk</blinding_assessment>
+  <attrition explanation="">Low risk</attrition>
+  <selective_reporting explanation="">Low risk</selective_reporting>
+  <other_biases>Low risk</other_biases>
 </study>
 </included>
