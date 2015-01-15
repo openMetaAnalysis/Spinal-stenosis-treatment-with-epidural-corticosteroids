@@ -35,12 +35,12 @@
 </study>
 <study>
 <citation year="2012" pmid="22652990" trialregistration="NCT00370799" journal_abbrev="J Spinal Disord Tech" totalsubjects="0" >Manchikanti</citation>
-  <randomization explanation="Method of randomization not described">Unclear risk</randomization>
-  <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
-  <blinding_people explanation="Did not state blinding of subjects and personnel."> risk</blinding_people>
-  <blinding_assessment explanation="Blinding of assessors not stated">Unclear risk</blinding_assessment>
-  <attrition explanation="Deemed high risk by Cochrane 2013 review. Consort flow diagram not available">High risk</attrition>
-  <selective_reporting explanation="Deemed high risk by Cochrane 2013 review. Original protocol not available at a website for trial registration.">High risk</selective_reporting>
+  <randomization explanation="">Low risk</randomization>
+  <allocation explanation="Method of concealing allocation by onsite nurse coordinator">Unclear risk</allocation>
+  <blinding_people explanation=""> Low risk</blinding_people>
+  <blinding_assessment explanation="">Low risk</blinding_assessment>
+  <attrition explanation="">Low risk</attrition>
+  <selective_reporting explanation=" Original protocol available at a website for trial registration but threshold for treatment success not specified.">Unclear risk</selective_reporting>
   <other_biases> risk</other_biases>
 </study>
 <!-- start of a new study -->
