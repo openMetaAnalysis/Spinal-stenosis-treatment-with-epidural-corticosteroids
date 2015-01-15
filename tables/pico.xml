@@ -65,21 +65,20 @@
 <study>
 <citation year="2012" pmid="22652990" trialregistration="NCT00370799" journal_abbrev="J Spinal Disord Tech">Manchikanti</citation>
  <design>randomized controlled trial</design>
- <patients total="__">
+ <patients total="100">
  <description>spinal stenosis</description>
- <bullet>Computerized random number generator</bullet>
- <bullet>Mean age __ months</bullet>
+ <bullet>Mean age 56 years </bullet>
  </patients>
- <intervention>epidural injection
- <bullet>Amount?</bullet>
- <bullet>Frequency?</bullet>
- <bullet>Duration?</bullet>
+ <intervention>epidural injection of 0.5% of lidocaine and betamethasone
+ <bullet>9 mL of lidocaine, 1 mL of betamethasone</bullet>
+ <bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
  </intervention>
- <comparison>epidural injection
+ <comparison>epidural injection of 10 mL of 0.5% lidocaine
+ <bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
  </comparison>
  <outcome>
- <bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'> measured how and when</bullet>
- <bullet type='secondary'>Criteria used or how measured?</bullet>
+ <bullet type='primary'> Numeric pain scale rated on 10 point scale at 3, 6, and 12 months.  Significant pain relief defined as 50% or more. </bullet>
+ <bullet type='secondary'> Oswestry Disability Index on a 50 point scale at 3, 6, and 12 months </bullet>
  </outcome>
 </study>
 <!-- start of a new study -->
