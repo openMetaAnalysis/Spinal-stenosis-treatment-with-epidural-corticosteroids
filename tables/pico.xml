@@ -62,6 +62,27 @@
 </study>
 <!-- start of a new study -->
 <study>
+<citation year="2012" pmid="22652990" nct="" journal_abbrev="J Spinal Disord Tech">Manchikanti</citation>
+ <design>randomized controlled trial</design>
+ <patients total="__">
+ <description>spinal stenosis</description>
+ <bullet>Computerized random number generator</bullet>
+ <bullet>Mean age __ months</bullet>
+ </patients>
+ <intervention>epidural injection
+ <bullet>Amount?</bullet>
+ <bullet>Frequency?</bullet>
+ <bullet>Duration?</bullet>
+ </intervention>
+ <comparison>epidural injection
+ </comparison>
+ <outcome>
+ <bullet type='primary' url='http://pubmed.gov/delete_url_if_not_needed'> measured how and when</bullet>
+ <bullet type='secondary'>Criteria used or how measured?</bullet>
+ </outcome>
+</study>
+<!-- start of a new study -->
+<study>
 <citation year="2014" pmid="24988555" nct="" journal_abbrev="N Engl J Med">Friedly</citation>
 <design>Randomized controlled trial</design>
 <patients total="400">
