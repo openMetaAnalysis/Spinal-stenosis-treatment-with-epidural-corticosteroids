@@ -5,10 +5,10 @@
   <citation pmid="3155742" year="1985" journal_abbrev="J Bone Joint Surg Am" totalsubjects="37" >Cuckler</citation>
   <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
   <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
-  <blinding_people>Low risk</blinding_people>
-  <blinding_assessment>Low risk</blinding_assessment>
-  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
-  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <blinding_people explanation="Deemed high risk by Cochrane 2013 review, but paper states blinded.">Low* risk</blinding_people>
+  <blinding_assessment explanation="Deemed high risk by Cochrane 2013 review, but paper states blinded.">Low* risk</blinding_assessment>
+  <attrition explanation="Consort flow diagram not available">High risk</attrition>
+  <selective_reporting explanation="Original protocol not available at a website for trial registration.">High risk</selective_reporting>
   <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
@@ -16,10 +16,10 @@
 <citation pmid="NA" year="1991" journal_abbrev="J Neurol Orthop Med Surg" totalsubjects="30" >Zahaar</citation>
   <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
   <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
-  <blinding_people explanation="Blinding noted of patients, but not stated regarding providers">Unclear risk</blinding_people>
-  <blinding_assessment>Unclear risk</blinding_assessment>
-  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
-  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <blinding_people explanation="Blinding noted of patients, but not stated regarding providers">High risk</blinding_people>
+  <blinding_assessment explanation="No statement of blinding of assessors.">High risk</blinding_assessment>
+  <attrition explanation="Deemed high risk by Cochrane 2013 review. Consort flow diagram not available">High risk</attrition>
+  <selective_reporting explanation="Deemed high risk by Cochrane 2013 review. Original protocol not available at a website for trial registration.">High risk</selective_reporting>
   <other_biases>Unclear risk</other_biases>
 </study>
 <!-- start of a new study -->
@@ -28,19 +28,19 @@
   <randomization explanation="Method of blinding not stated">Unclear risk</randomization>
   <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
   <blinding_people explanation="Blinding not stated">Unclear risk</blinding_people>
-  <blinding_assessment>Low risk</blinding_assessment>
-  <attrition explanation="Consort flow diagram not available">Unclear risk</attrition>
-  <selective_reporting explanation="Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
+  <blinding_assessment explanation="Deemed high risk by Cochrane 2013 review. However, patient states blinded therapis.">Low* risk</blinding_assessment>
+  <attrition explanation="Deemed high risk by Cochrane 2013 review. Consort flow diagram not available">Unclear risk</attrition>
+  <selective_reporting explanation="Deemed high risk by Cochrane 2013 review. Original protocol not available at a website for trial registration.">Unclear risk</selective_reporting>
   <other_biases>Unclear risk</other_biases>
 </study>
 <study>
 <citation year="2012" pmid="22652990" trialregistration="NCT00370799" journal_abbrev="J Spinal Disord Tech" totalsubjects="0" >Manchikanti</citation>
   <randomization explanation="Method of randomization not described">Unclear risk</randomization>
-  <allocation explanation="Method of concealing allocation not stated"> risk</allocation>
+  <allocation explanation="Method of concealing allocation not stated">Unclear risk</allocation>
   <blinding_people explanation="Did not state blinding of subjects and personnel."> risk</blinding_people>
   <blinding_assessment explanation="Blinding of assessors not stated">Unclear risk</blinding_assessment>
-  <attrition explanation="Consort flow diagram not provided">Unclear risk</attrition>
-  <selective_reporting explanation="Original protocol not available at a website for trial registration."> risk</selective_reporting>
+  <attrition explanation="Deemed high risk by Cochrane 2013 review. Consort flow diagram not available">High risk</attrition>
+  <selective_reporting explanation="Deemed high risk by Cochrane 2013 review. Original protocol not available at a website for trial registration.">High risk</selective_reporting>
   <other_biases> risk</other_biases>
 </study>
 <!-- start of a new study -->
