@@ -2,7 +2,7 @@
 <included>
 <!-- start of a new study -->
 <study>
-<citation year="1985" pmid="3155742" nct="" journal_abbrev="J Bone Joint Surg Am">Cuckler</citation>
+<citation year="1985" pmid="3155742" trialregistration="" journal_abbrev="J Bone Joint Surg Am">Cuckler</citation>
 <design>Randomized controlled trial</design>
 <patients total="37">
 <description>Spinal stenosis</description>
@@ -22,7 +22,7 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="1991" pmid="#" nct="" journal_abbrev="J Neurol Orthop Med Surg">Zahhar</citation>
+<citation year="1991" pmid="#" trialregistration="" journal_abbrev="J Neurol Orthop Med Surg">Zahhar</citation>
 <design>Randomized controlled trial</design>
 <patients total="30">
 <description>Spinal stenosis</description>
@@ -41,7 +41,7 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="1998" pmid="9647457" nct="" journal_abbrev="Clin J Pain">Fukusaki</citation>
+<citation year="1998" pmid="9647457" trialregistration="" journal_abbrev="Clin J Pain">Fukusaki</citation>
 <design>Randomized controlled trial</design>
 <patients total="35">
 <description>Spinal stenosis</description>
@@ -62,7 +62,7 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="2012" pmid="22652990" nct="" journal_abbrev="J Spinal Disord Tech">Manchikanti</citation>
+<citation year="2012" pmid="22652990" trialregistration="" journal_abbrev="J Spinal Disord Tech">Manchikanti</citation>
  <design>randomized controlled trial</design>
  <patients total="__">
  <description>spinal stenosis</description>
@@ -83,7 +83,7 @@
 </study>
 <!-- start of a new study -->
 <study>
-<citation year="2014" pmid="24988555" nct="" journal_abbrev="N Engl J Med">Friedly</citation>
+<citation year="2014" pmid="24988555" trialregistration="NCT01238536" journal_abbrev="N Engl J Med">Friedly</citation>
 <design>Randomized controlled trial</design>
 <patients total="400">
 <description>Spinal stenosis</description>
