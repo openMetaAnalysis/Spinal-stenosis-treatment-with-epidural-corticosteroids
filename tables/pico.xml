@@ -9,11 +9,12 @@
 <bullet>Unclear method of randomization</bullet>
 <bullet>Mean age unclear</bullet>
 </patients>
-<intervention>Epidural injection of 80 mg methylprednisolone and procaine
-<bullet>7 ml</bullet>
-<bullet>Repearted at 24 hours if less than 50% improvement</bullet>
+<intervention>Methylprednisolone 80 mg and procaine 5 mL
+<bullet>7 mL total volume</bullet>
+<bullet>Repeated at 24 hours if less than 50% improvement</bullet>
 </intervention>
-<comparison>**Procaine**
+<comparison>Procaine 5 mL
+<bullet>7 mL total volume</bullet>
 </comparison>
 <outcome>
 <bullet type='primary'>75% or more self-reported improvement 24 hours after injection</bullet>
@@ -29,11 +30,11 @@
 <bullet>Unclear method of randomization</bullet>
 <bullet>Mean age unclear</bullet>
 </patients>
-<intervention>Epidural injection of 5 mL of hydrocortisone, 4 mL of carbocaine 4%, volume completed to 30 mL with saline
-<bullet>**30 mL**</bullet>
+<intervention>Hydrocortisone 5 mL with carbocaine 4 mL
+<bullet>**30 mL total volume**</bullet>
 </intervention>
-<comparison>4 mL of carbocaine 4% and volume completed to 30 mL with saline
-<bullet>**30 mL**</bullet>
+<comparison>Carbocaine 4 mL
+<bullet>**30 mL total volume**</bullet>
 </comparison>
 <outcome>
 <bullet type='primary'>75% or more self-reported improvement 24 hours after injection</bullet>
@@ -49,13 +50,14 @@
 <bullet>Unclear method of randomization</bullet>
 <bullet>Mean age 70 years</bullet>
 </patients>
-<intervention>Epidural injection of 40 mg of methylprednisone and 1% mepivacaine
-<bullet>8 mL</bullet>
+<intervention>Methylprednisone 40 mg and mepivacaine 8 mL
+<bullet>8 mL total volume</bullet>
 <bullet>Twice over one week</bullet>
 </intervention>
-<comparison>Two control groups
-<bullet>8 mL of saline twice in the first week</bullet>
-<bullet>8 mL of 1% **mepivacaine** twice in the first week</bullet>
+<comparison>**Two control groups**
+<bullet>Saline twice in the first week</bullet>
+<bullet>Mepivacaine twice in the first week</bullet>
+<bullet>8 mL total volume per injection</bullet>
 </comparison>
 <outcome>
 <bullet type='primary'>Walking distance at 1 week, 1 month, 3 months. Good response defined as 20 meters or more</bullet>
@@ -64,22 +66,23 @@
 <!-- start of a new study -->
 <study>
 <citation year="2012" pmid="22652990" trialregistration="NCT00370799" journal_abbrev="J Spinal Disord Tech">Manchikanti</citation>
- <design>randomized controlled trial</design>
- <patients total="100">
- <description>spinal stenosis</description>
- <bullet>Mean age 56 years </bullet>
- </patients>
- <intervention>epidural injection of 0.5% of lidocaine and betamethasone
- <bullet>9 mL of lidocaine, 1 mL of betamethasone</bullet>
- <bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
- </intervention>
- <comparison>epidural injection of 10 mL of 0.5% lidocaine
- <bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
- </comparison>
- <outcome>
- <bullet type='primary'> Numeric pain scale rated on 10 point scale at 3, 6, and 12 months.  Significant pain relief defined as 50% or more. </bullet>
- <bullet type='secondary'> Oswestry Disability Index on a 50 point scale at 3, 6, and 12 months </bullet>
- </outcome>
+<design>randomized controlled trial</design>
+<patients total="100">
+<description>spinal stenosis</description>
+<bullet>Mean age 56 years</bullet>
+</patients>
+<intervention>Betamethasone 1mL and lidocaine 9mL
+<bullet>10 mL total volume</bullet>
+<bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
+</intervention>
+<comparison>Lidocaine 10 mL
+<bullet>10 mL total volume</bullet>
+<bullet>Repeated as needed when pain relief reported as less than 50%</bullet>
+</comparison>
+<outcome>
+<bullet type='primary'>Numeric pain scale rated on 10 point scale at 3, 6, and 12 months. Significant pain relief defined as 50% or more. </bullet>
+<bullet type='secondary'>Oswestry Disability Index on a 50 point scale at 3, 6, and 12 months </bullet>
+</outcome>
 </study>
 <!-- start of a new study -->
 <study>
@@ -90,10 +93,12 @@
 <bullet>Coordinating center generated electronically concealed, permuted-block randomized assignments for each recruitment site</bullet>
 <bullet>Mean age 68 years</bullet>
 </patients>
-<intervention>Epidural injection with glucocorticoids (various preparations) plus lidocaine
+<intervention>Glucocorticoids and lidocaine (various preparations)
+<bullet>Unknown total volume</bullet>
 <bullet>Once with optional repeat injection at 3 weeks</bullet>
 </intervention>
-<comparison>Epidural injection with lidocaine alone
+<comparison>Lidocaine (varios preparations)
+<bullet>Unknown total volume</bullet>
 </comparison>
 <outcome>
 <bullet type='primary' url='http://www.rmdq.org/'>Roland-Morris Disability Questionnaire (RMDQ)</bullet>
