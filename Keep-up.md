@@ -1,7 +1,7 @@
 Keep up with this topic
 =========================
 
-Receive notifications about possible studies when results posted at [ClinicalTrials.gov](http://clinicaltrials.gov)
+Receive notifications about possible studies when results are posted at [ClinicalTrials.gov](http://clinicaltrials.gov)
 -------------------------
 Search strategy is **Terms: glucocorticoids epidural random* | Studies With Results | Condition: spinal stenosis | updated in the last 14 days**:
 
