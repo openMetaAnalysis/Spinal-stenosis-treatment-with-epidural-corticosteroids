@@ -1,13 +1,13 @@
-,,,Current,"Manchikanti , 2015","Cochrane (Ammendolia), 2013"
-Study,Year,PMID,,PMID: 25789241,PMID: 23996271
-Cuckler,1985,3155742,Yes,Not mentioned,Yes
-Zahhar,1991,0,Yes,Not mentioned,Yes
-Fukusaki,1998,9647457,Yes,Not mentioned,Yes
-Wilson-MacDonald,2005,15773645,No. Could not isolate subjects with spinal stenosis,Yes,No
-Koc,2009,19404172,"Yes, but no binary outcomes","Yes, but not pooled",Yes
-Lee,2009,19333170,No. No control group,Yes,No
-Nam,2011,22506167,No. Control group not relevant to our study questions,Yes,No
-Manchikanti,2012,22652990,"Yes, but results replaced by Manchikanti, 2015",No,Not mentioned
-Friedly,2014,24988555,Yes,No,Yes
-Milburn,2014,24688335,"Yes, but no binary outcomes",Yes,Not yet published
-Manchikanti,2015,25675062,Yes,Yes,Not yet published
+,,,Current,"Chou, 2015","Manchikanti , 2015","Cochrane (Ammendolia), 2013"
+Study,Year,PMID,,PMID: 26302454,PMID: 25789241,PMID: 23996271
+Cuckler,1985,3155742,Yes,,Not mentioned,Yes
+Zahhar,1991,0,Yes,,Not mentioned,Yes
+Fukusaki,1998,9647457,Yes,,Not mentioned,Yes
+Wilson-MacDonald,2005,15773645,No. Could not isolate subjects with spinal stenosis,,Yes,No
+Koc,2009,19404172,"Yes, but no binary outcomes",,"Yes, but not pooled",Yes
+Lee,2009,19333170,No. No control group,,Yes,No
+Nam,2011,22506167,No. Control group not relevant to our study questions,,Yes,No
+Manchikanti,2012,22652990,"Yes, but results replaced by Manchikanti, 2015",,No,Not mentioned
+Friedly,2014,24988555,Yes,,No,Yes
+Milburn,2014,24688335,"Yes, but no binary outcomes",,Yes,Not yet published
+Manchikanti,2015,25675062,Yes,,Yes,Not yet published
