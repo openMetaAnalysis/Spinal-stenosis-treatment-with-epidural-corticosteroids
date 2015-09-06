@@ -1,15 +1,13 @@
-,,,Current,"Chou, 2015","Manchikanti , 2015","Cochrane (Ammendolia), 2013"
-Study,Year,PMID,,PMID: 26302454,PMID: 25789241,PMID: 23996271
-Cuckler,1985,3155742,Yes,Yes,Not mentioned,Yes
-Zahhar,1991,0,Yes,,Not mentioned,Yes
-Fukusaki,1998,9647457,Yes,,Not mentioned,Yes
-Wilson-MacDonald,2005,15773645,No. Could not isolate subjects with spinal stenosis,,Yes,No
-Koc,2009,19404172,"Yes, but no binary outcomes",Yes,"Yes, but not pooled",Yes
-Lee,2009,19333170,No. No control group,,Yes,No
-Nam,2011,22506167,No. Control group received anesthetic.,Yes,Yes,No
-Manchikanti,2012,22652990,"Yes, but results replaced by Manchikanti, 2015",,No,Not mentioned
-Manchikanti,2012,22270738,"No, results updated by PMID 25675062",Yes,,Not mentioned
-Manchikanti,2012,22996849,Yes,Yes,,Not mentioned
-Friedly,2014,24988555,Yes,Yes,No,Yes
-Milburn,2014,24688335,"Yes, but no binary outcomes",,Yes,Not yet published
-Manchikanti,2015,25675062,Yes,Not yet published,Yes,Not yet published
+,,,Current,"Chou, 2015","Cochrane (Ammendolia), 2013"
+Study,Year,PMID,,PMID: 26302454,PMID: 23996271
+Cuckler,1985,3155742,Yes,Yes,Yes
+Zahhar,1991,0,Yes,,Yes
+Fukusaki,1998,9647457,Yes,,Yes
+Koc,2009,19404172,"Yes, but no binary outcomes",Yes,Yes
+Nam,2011,22506167,No. Only the control group received anesthetic.,Yes,
+Manchikanti,2012,22652990,Yes,"Yes, as part of PMID 22996849",
+Manchikanti,2012,22270738,"No, results included by PMID 25675062",Yes,
+Manchikanti,2012,22996849,Yes,Yes,
+Friedly,2014,24988555,Yes,Yes,
+Milburn,2014,24688335,"Yes, but no binary outcomes",,
+Manchikanti,2015,25675062,Yes,,
