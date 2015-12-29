@@ -1,17 +1,17 @@
-Study,Year,PMID,experimental_events,experimental_total,control_events,control_total, Cofactor
-Zahhar,1991,0,10,18,6,12,'1-7 days'
-Cuckler,1985,3155742,5,20,3,17, '1-7 days'
-Fukusaki,1998,9647457,12,19,10,16, '1-7 days'
-Fukusaki,1998,9647457,3,19,3,16, '4-6 weeks'
-Friedly,2014,24988555,48,200,40,200, '4-6 weeks'
-Fukusaki,1998,9647457,1,19,1,16, '3 months'
-Manchikanti,2012,22652990,24,50,29,50, '3 months'
-Manchikanti,2012,22652990,25,50,27,50, '6 months'
-Manchikanti,2012,22652990,23,50,24,50, 'One year or more'
-Manchikanti,2012,22996849,29,50,26,50, 'One year or more'
-Cuckler,1985,3155742,5,23,2,14, 'One year or more'
-Manchikanti,2015,25675062,43,60,44,60, 'One year or more'
-Zahhar,1991,0,7,18,4,12, 'One year or more'
+Study,Year,PMID,experimental_events,experimental_total,control_events,control_total, Cofactor,
+Zahhar,1991,0,10,18,6,12,'1-7 days',
+Cuckler,1985,3155742,5,20,3,17, '1-7 days',
+Fukusaki,1998,9647457,12,19,10,16, '1-7 days',
+Fukusaki,1998,9647457,3,19,3,16, '4-6 weeks',
+Friedly,2014,24988555,48,200,40,200, '4-6 weeks',
+Fukusaki,1998,9647457,1,19,1,16, '3 months',
+Manchikanti,2012,22652990,24,50,29,50, '3 months',
+Manchikanti,2012,22652990,25,50,27,50, '6 months',
+Manchikanti,2012,22652990,23,50,24,50, 'One year or more',
+Manchikanti,2012,22996849,29,50,26,50, 'One year or more',
+Cuckler,1985,3155742,5,23,2,14, 'One year or more',
+Manchikanti,2015,25675062,43,60,44,60, 'One year or more',
+Zahhar,1991,0,7,18,4,12, 'One year or more',
 ,,,,,,,
 ,,,,,,,To make forest plot:
 ,,,,,,,Click 'Raw' view of this file
